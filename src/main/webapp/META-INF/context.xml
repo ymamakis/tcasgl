@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/tcasgl">
+   
+    <Resource
+        name="jdbc/cognitive" type="javax.sql.DataSource"
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        url="jdbc:derby:cognitive;create=true"
+        driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
+        username="APP" password="APP"
+    />
+<Resource
+        name="jdbc/language" type="javax.sql.DataSource"
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        url="jdbc:derby:language;create=true"
+        driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
+        username="APP" password="APP"
+    />
+  </Context>
